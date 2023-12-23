@@ -202,7 +202,7 @@ void main() {
   printLinkedListInReverse(linkedList);
   print(findMiddleNodeOfLinkedList(linkedList).value);
   print("Before reverse: ${linkedList.toListValue()}");
-  // linkedList.reverse();
+  linkedList.reverse();
   print("After reverse: ${linkedList.toListValue()}");
   linkedList.append(1);
   linkedList.append(2);
